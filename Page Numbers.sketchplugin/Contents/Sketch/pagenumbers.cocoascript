@@ -21,7 +21,7 @@ var onRun = function(context) {
       reverseOrder = [userDefaults objectForKey:@"reverseOrder"];
   }
   
-  var defaultPrefix = "Page ";
+  var defaultPrefix = "";
   if ([userDefaults objectForKey:@"defaultPrefix"]) {
       defaultPrefix = [userDefaults objectForKey:@"defaultPrefix"];
   }
